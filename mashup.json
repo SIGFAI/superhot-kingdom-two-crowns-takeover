@@ -1,0 +1,146 @@
+{
+  "id": "sigf/superhot-kingdom-two-crowns-takeover",
+  "version": "1.0.0",
+  "name": "Kingdom Two Crowns Takeover",
+  "tagline": "Bring Kingdom Two Crowns into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "kingdomtwocrowns",
+      "role": "guest",
+      "label": "Kingdom Two Crowns"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "superhot-kingdom-two-crowns-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/arrow.wav",
+              "sha256": "9c40fc58051742eafe5adb95d9f9cc21737868cb1dab048c0db20174177453d9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin_icon.png",
+              "sha256": "efd39c0946c472c1f1e344af168a84a634a7e9abd1c5fdec7a215e8d51044c1b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin.wav",
+              "sha256": "47b56bf4eb0ac7033c93acf08ae393b3bd9097d3c60cf9232f65de0100920720"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coins.wav",
+              "sha256": "2f404ccad2175c48fb0b7237e167e4eb0c823301c3c2f24e436fd99840faaa43"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/crown_icon.png",
+              "sha256": "f8eef35ef37e03090efae1f162f884879b3fb056365a054c512875edbc933c32"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fanfare.wav",
+              "sha256": "577f8e27ed5b933057a15619445341fe254d2076794483faed2c0390102ccfda"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/grass.png",
+              "sha256": "5928a8a787c0bf399c8bc593601f3d3f8820b938c1c1b0cace17843321e1c7fb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/greed.wav",
+              "sha256": "fe727e572ced69a18328cb4eb0c411895b9c88b7db92bbff60b12e99ec7f6373"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/horse.wav",
+              "sha256": "2414f26af5bed34e834908d4416ceef2ae9e6f74c8fc341e080dd517a64e5e0b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_archer.png",
+              "sha256": "28ef95184274a7dc410be85a571f1de35af783807adc0a3427a1c209c999e3bd"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_campfire.png",
+              "sha256": "7270b5d7987b9787eb9753c069c76366aadd8729d581850383572feb70bf9280"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_chest.png",
+              "sha256": "554ba3cd4eddd706e300f6a7b5755103bd44f52153d6e0b30e6b01f6be3725d6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_crown.png",
+              "sha256": "233364fd5a892459353bde0920dd878d52752b6e15d03c7431df8e5749a703a7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_greed.png",
+              "sha256": "bf384a0fc9d4065cb2675e1bf6898ebc57b54e08518272f2b3b255d2577411e5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_monarch.png",
+              "sha256": "85dfc592add334910708e918c668c938e70f5ef08e7b52c9d33cddcafc71c453"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex_tree.png",
+              "sha256": "5ea5e4aacb11a4936b746042ceeb9640f2c01931a420db6cb4a3c41a85cbc3b2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "0aa589de974f97bdf726cc542f8aa3e10916406ae8e7e6d246c1e7e7cb224692"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "fc516cf670d80ba0fc680a0385d6b0b018c6e6b98fb738afd1a552abd90140c6"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/superhot-kingdom-two-crowns-takeover/releases/download/v1.0.0/superhot-kingdom-two-crowns-takeover.zip",
+          "sha256": "f521788fc81d36ffd927cbec26c1caa8fd6a2402536b51bd8349d70cb90b579f",
+          "size": 8351151
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "superhot-kingdom-two-crowns-takeover.zip",
+      "url": "https://github.com/SIGFAI/superhot-kingdom-two-crowns-takeover/releases/download/v1.0.0/superhot-kingdom-two-crowns-takeover.zip",
+      "sha256": "f521788fc81d36ffd927cbec26c1caa8fd6a2402536b51bd8349d70cb90b579f",
+      "size": 8351151
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/superhot-kingdom-two-crowns-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-2c06bea6.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T08:27:55.234Z"
+}
