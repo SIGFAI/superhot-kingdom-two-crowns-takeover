@@ -1,0 +1,5 @@
+Clip moments (the demo must show each, in this order):
+1. [x] Title "KINGDOM TWO CROWNS" over a SUPERHOT room turned into a Kingdom dusk: grass floor, pines, campfire, two archers beside the player, three crowned purple Greed walking in.
+2. [x] The archers loose a volley, then TIME STANDS STILL: golden-trailed arrows hang in the air in front of the Greed (SUPERHOT freeze x archers).
+3. [x] Time returns: arrows hit, the Greed stagger, then fall and spill gold coins that fly into the coin purse (HUD counter climbs); coins also buy a new archer.
+4. [x] A crown drops from a Greed and flies to the player: crown slot lights up; two crowns call the monarch's slow-motion royal charge that cuts down the Greed and showers coins ("TWO CROWNS").
